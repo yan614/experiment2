@@ -18,8 +18,9 @@ private Button back;
         back.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
-                //取得启动activityd的intent 对象
+                //取chu启动activityd的intent 对象
                 Intent intent = getIntent();
+                //取出intent中的数据
                 String et1=intent.getStringExtra("et11");
                 Integer number=intent.getIntExtra("number",2017);
 
